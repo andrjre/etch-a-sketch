@@ -1,8 +1,8 @@
 
 
 #box{
-    width:10px;
-    height:10px;
+    width:20px;
+    height:20px;
     border:solid 2px black;
     transition:  ease-out 3s;
 
@@ -29,4 +29,9 @@
 }
 .row-4{
     display: flex;
+}
+
+.grid{
+    display:flex;
+
 }
