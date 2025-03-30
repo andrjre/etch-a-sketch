@@ -1,11 +1,29 @@
 
 
+body{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(black,black, purple);
+    background-attachment: fixed;
+}
+
+h1{
+    color:white;
+}
+
+
 #box{
-    width:20px;
-    height:20px;
+    width:30px;
+    height:30px;
     border:solid 2px black;
     transition:  ease-out 3s;
+    background-color: white;
+}
 
+.all-grids{
+    border:solid  30px;
+    border-radius:10px;
 }
 
 #box:hover{
@@ -34,4 +52,73 @@
 .grid{
     display:flex;
 
+}
+
+button{
+    width:40px;
+    height:40px;
+}
+
+.colors{
+    display:flex;
+    gap:10px;
+    margin-top:10px;
+    justify-content: center;
+
+}
+
+#red{
+    background-color:red;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+}
+
+
+#blue{
+    background-color:blue;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+}
+
+#green{
+    background-color:green;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+}
+
+#black{
+    background-color:black;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+}
+
+#yellow{
+    background-color:yellow;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+}
+
+#orange{
+    background-color:orange;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+}
+
+#pink{
+    background-color:hotpink;
+    border-radius: 10px;
+    border:1px black solid;
+    transition: ease-in-out .15s;
+
+}
+
+.color-button:hover{
+    transform:scale(1.1);
+    opacity: 50%;
 }
